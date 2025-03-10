@@ -1,0 +1,13 @@
+13:37:00 [INFO] Booting app
+13:37:00 [INFO] Server creating on 127.0.0.1:8331
+13:37:00 [INFO] starting 4 workers
+13:37:00 [INFO] Actix runtime found; starting in Actix runtime
+13:37:00 [INFO] starting service: "actix-web-service-127.0.0.1:8331", workers: 4, listening on: 127.0.0.1:8331
+13:37:03 [INFO] 127.0.0.1 Trying to connect websocket
+13:37:11 [INFO] 127.0.0.1 Trying to connect websocket
+13:40:03 [INFO] SIGINT received; starting forced shutdown
+13:40:03 [INFO] accept thread stopped
+13:40:03 [INFO] shutting down idle worker
+13:40:03 [INFO] shutting down idle worker
+13:40:03 [INFO] shutting down idle worker
+13:40:03 [INFO] shutting down idle worker
