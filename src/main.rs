@@ -85,23 +85,9 @@ async fn main() -> std::io::Result<()> {
         App::new()
             // Websocket
             .service(websocket::index)
-            .wrap_fn(|req: ServiceRequest, srv| {
-                let fut = srv.call(req);
-                async move {
-                    let res: ServiceResponse = fut.await?;
-                    if res.status() == StatusCode::TOO_MANY_REQUESTS {
-                        log::warn!(
-                            "Rate limit occured. IP: {}",
-                            res.request().connection_info().realip_remote_addr().unwrap_or("idk")
-                        );
-                    }
-                    Ok(res)
-                }
-            })
 
             // Bridges
             .wrap(Governor::new(&governor_conf))
-          
             .wrap(middleware)
             
     })
