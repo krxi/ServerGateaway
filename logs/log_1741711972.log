@@ -1,0 +1,41 @@
+16:52:52 [INFO] Booting app
+16:52:52 [INFO] Server creating on 127.0.0.1:8331
+16:52:52 [INFO] starting 12 workers
+16:52:52 [INFO] Actix runtime found; starting in Actix runtime
+16:52:52 [INFO] starting service: "actix-web-service-127.0.0.1:8331", workers: 12, listening on: 127.0.0.1:8331
+16:52:55 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:56 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:56 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:57 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:57 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:57 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:58 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:58 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:58 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:58 [INFO] 127.0.0.1 Trying to connect websocket
+16:52:59 [INFO] 127.0.0.1 Trying to connect websocket
+16:53:01 [INFO] 127.0.0.1 Trying to connect websocket
+16:53:02 [WARN] This ip entered blacklist: 127.0.0.1
+16:53:02 [INFO] This ip removed from blacklist: 127.0.0.1
+16:53:02 [WARN] This ip entered blacklist: 127.0.0.1
+16:53:58 [INFO] 127.0.0.1 Trying to connect websocket
+16:53:58 [INFO] This ip removed from blacklist: 127.0.0.1
+16:53:59 [INFO] 127.0.0.1 Trying to connect websocket
+16:53:59 [INFO] 127.0.0.1 Trying to connect websocket
+16:54:00 [INFO] 127.0.0.1 Trying to connect websocket
+16:54:00 [INFO] 127.0.0.1 Trying to connect websocket
+16:54:00 [INFO] 127.0.0.1 Trying to connect websocket
+16:54:06 [INFO] SIGINT received; starting forced shutdown
+16:54:06 [INFO] accept thread stopped
+16:54:06 [INFO] force shutdown worker, closing 1 connections
+16:54:06 [INFO] force shutdown worker, closing 1 connections
+16:54:06 [INFO] force shutdown worker, closing 3 connections
+16:54:06 [INFO] force shutdown worker, closing 2 connections
+16:54:06 [INFO] force shutdown worker, closing 2 connections
+16:54:06 [INFO] force shutdown worker, closing 1 connections
+16:54:06 [INFO] force shutdown worker, closing 2 connections
+16:54:06 [INFO] force shutdown worker, closing 1 connections
+16:54:06 [INFO] force shutdown worker, closing 1 connections
+16:54:06 [INFO] force shutdown worker, closing 1 connections
+16:54:06 [INFO] force shutdown worker, closing 2 connections
+16:54:06 [INFO] force shutdown worker, closing 1 connections
