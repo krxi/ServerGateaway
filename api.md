@@ -24,7 +24,7 @@
                 resultKey: 0,
             }
 
-            2. wait server message "prepare licence_key" with this path
+            3. wait server message "prepare licence_key" with this path
 
             client encyrpt sorting: (json { licence_key:0 hwid:0 } ) + aes encyrpt (with public key) + **b58** + **b64** + **b58**
             server decrypt sorting: **b58** + **b64** + **b58** + aes decrypt + json deserialize
