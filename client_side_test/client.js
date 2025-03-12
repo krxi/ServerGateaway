@@ -11,6 +11,8 @@ const socket = new WebSocket(websocket_url);
 
 socket.onopen = function(event) {
     console.log("Connection open")
+    socket.send("I came")
+    socket.send("ping")
 };
 
 socket.onmessage = function(event) {
