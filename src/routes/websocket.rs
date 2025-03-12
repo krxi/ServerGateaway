@@ -20,6 +20,8 @@ pub async fn index(req: HttpRequest, stream: web::Payload) -> Result<HttpRespons
 
     // start task but don't wait for it (starts thread and continues to return OK for client)
     rt::spawn(async move {
+        let level = 0;
+
         // receive messages from websocket
         while let Some(msg) = stream.next().await {
             match msg {
